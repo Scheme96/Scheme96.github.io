@@ -42,7 +42,7 @@ html, body {
   max-width: 600px;
   overflow: hidden;
   position: absolute;
-  top: 35px;
+  bottom: 35px;
   width: 44px;
 }
 
@@ -52,7 +52,7 @@ html, body {
   opacity: 1;
   overflow: hidden;
   position: absolute;
-  top: 0;
+  bottom: 10px;
   z-index: 2;
 }
 
