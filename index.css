@@ -42,7 +42,7 @@ html, body {
   max-width: 600px;
   overflow: hidden;
   position: absolute;
-  bottom: 250px;
+  top: 100px;
   width: 44px;
 }
 
