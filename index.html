@@ -88,5 +88,28 @@ blockquote p { font-size: 14px; }
   <li><a href="https://sites.google.com/view/simonsconferences/simons-foundation/rationality" target="_blank">Simons conference-Rationality</a>, <a href="https://drive.google.com/file/d/1PuJ-Cmk3_-zPJLMf07lxQDFjc4as6bVJ/view" target="_blank">Short talk</a>, July 30, 2020.</li>
 </ul>
 
+<hr>
 
+
+<h4>press space bar to start and jump, only one life (F5 to revive)</h4>
+
+
+
+
+		<canvas id="game" height="200" width="1000"></canvas>
+
+
+        <script src="js/helpers.js"></script>
+        <script src="js/objects/game-object.js"></script>
+        <script src="js/objects/cactus.js"></script>
+        <script src="js/objects/dinosaur.js"></script>
+        <script src="js/objects/background.js"></script>
+        <script src="js/objects/score.js"></script>
+        <script src="js/game.js"></script>
+        <script>
+        	new Game({
+        		el: document.getElementById("game")
+        	});
+        </script>
+<button type="button" onclick="this.player.startJump(this.offset)">jump</button>
 </body></html>
